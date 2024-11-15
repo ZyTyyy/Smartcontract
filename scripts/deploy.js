@@ -7,7 +7,7 @@ async function main() {
     // Paramètres de la loterie : nombre maximum de participants, prix du ticket et durée en secondes
     const Lottery = await ethers.getContractFactory("SimpleLotto");
     const maxParticipants = 10000; // nombre maximum de participants souhaité
-    const ticketPrice = ethers.utils.parseEther("0.0001"); // prix du ticket en ETH
+    const ticketPrice = ethers.utils.parseEther("0.00001"); // prix du ticket en ETH
     const duration = 30 * 24 * 60 * 60; // durée de la loterie en secondes (30 jours)
 
     // Déploiement du contrat avec les paramètres

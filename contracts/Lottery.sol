@@ -14,7 +14,7 @@ contract SimpleLotto {
     constructor(uint _maxParticipants, uint _duration) {
         owner = msg.sender;
         maxParticipants = _maxParticipants;
-        ticketPrice = 0.0001 ether; // Prix du ticket fixé à 0.0001 ETH
+        ticketPrice = 0.00001 ether; // Prix du ticket fixé à 0.0001 ETH
         lotteryEndTime = block.timestamp + _duration;
     }
 
